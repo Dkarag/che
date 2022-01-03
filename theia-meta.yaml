@@ -17,7 +17,7 @@ spec:
       targetPort: 3100
       attributes:
         protocol: http
-        type: main
+        type: ide
         secure: true
         cookiesAuthEnabled: true
         discoverable: false
