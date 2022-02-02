@@ -1,0 +1,16 @@
+apiVersion: v2
+publisher: dmka
+name: custom-plugin
+version: 0.0.1
+type: VS Code extension
+displayName: Custom plugin
+title: A Custom plugin
+description: A Custom plugin
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/Dkarag/che
+category: Other
+spec:
+containers:                                                   
+    - image: xkardim/cheimage:1
+  extensions:
+    - https://github.com/microsoft/vscode-python/releases/download/2021.12.1559732655/ms-python-release.vsix
