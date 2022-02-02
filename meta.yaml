@@ -11,6 +11,6 @@ repository: https://github.com/Dkarag/che
 category: Other
 spec:
   containers:
-    - image: xkardim/cheimage
+    - image: xkardim/cheimage:1
   extensions:
     - https://github.com/microsoft/vscode-python/releases/download/2021.12.1559732655/ms-python-release.vsix
