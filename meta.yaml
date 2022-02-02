@@ -13,4 +13,4 @@ spec:
   containers:
     - image: xkardim/cheimage:1
   extensions:
-    - https://github.com/microsoft/vscode-python/releases/download/2021.12.1559732655/ms-python-release.vsix
+    - https://github.com/microsoft/vscode-python/releases/download/2020.7.94776/ms-python-release.vsix
