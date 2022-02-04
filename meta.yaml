@@ -11,6 +11,6 @@ repository: https://github.com/Dkarag/che
 category: Other
 spec:
   containers:
-    - image: xkardim/cheimage:5
+    - image: quay.io/eclipse/che-sidecar-python@sha256:9d910486a81d92ebdeaab4c2fc71546bee23ff7e3a986fdb9df4e458819cb958
   extensions:
     - https://github.com/microsoft/vscode-python/releases/download/2020.7.94776/ms-python-release.vsix
