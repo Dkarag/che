@@ -1,3 +1,6 @@
+  apiVersion: v2
+  type: VS Code extension
+  title: A Custom plugin
   id: ms-python/python
   publisher: ms-pythonDMKA
   name: pythonDMKA
@@ -16,7 +19,7 @@
     - Data Science
     - Machine Learning
     - Notebooks
-  icon: /images/ms-python-python-icon.png
+  icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 sidecar:
   name: vscode-python
   memoryLimit: 512Mi
