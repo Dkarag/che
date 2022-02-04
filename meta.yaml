@@ -12,6 +12,14 @@ category: Other
 firstPublicationDate: "2019-07-08"
 spec:
   containers:
-    - image: quay.io/eclipse/che-sidecar-python:3.7.3-8f39348
+     name: vscode-python
+     memoryLimit: 512Mi
+     memoryRequest: 20Mi
+     cpuLimit: 500m
+     cpuRequest: 30m
+     volumeMounts:
+      - name: venv
+        path: /home/theia/.venv
+     image: 'quay.io/eclipse/che-plugin-sidecar:python-2fca849'
   extensions:
     - https://github.com/microsoft/vscode-python/releases/download/2020.7.94776/ms-python-release.vsix
