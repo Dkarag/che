@@ -14,4 +14,4 @@ spec:
   containers:
     - image: "docker.io/xkardimpse/cheimage:5"
   extensions:
-    - 'https://github.com/microsoft/vscode-python/releases/download/2020.7.94776/ms-python-release.vsix'
+    - https://github.com/microsoft/vscode-python/releases/download/2020.7.94776/ms-python-release.vsix
