@@ -12,6 +12,6 @@ category: Other
 firstPublicationDate: "2019-07-08"
 spec:
   containers:
-    - image: docker.io/xkardim/che/cheimage:5
+    - image: docker.io/xkardim/cheimage:5
   extensions:
     - https://github.com/microsoft/vscode-python/releases/download/2020.7.94776/ms-python-release.vsix
