@@ -1,7 +1,7 @@
 apiVersion: v2
-publisher: dmka
-name: dmka
-version: 1.0.0
+publisher: ms/python_python
+name: ms/python_python
+version: latest
 type: VS Code extension
 displayName: dmka
 title: dmka VS Extension
