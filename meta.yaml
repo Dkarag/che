@@ -11,15 +11,8 @@ repository: https://github.com/xkardim/che
 category: Other
 firstPublicationDate: "2019-07-08"
 spec:
-  containers:
-     name: vscode-python
-     memoryLimit: 512Mi
-     memoryRequest: 20Mi
-     cpuLimit: 500m
-     cpuRequest: 30m
-     volumeMounts:
-      - name: venv
-        path: /home/theia/.venv
-     image: 'docker.io/xkardim/cheimage:7'
+spec:
+  containers:                                                   
+    - image: xkardim/cheimage:7
   extensions:
     - https://github.com/microsoft/vscode-python/releases/download/2020.7.94776/ms-python-release.vsix
